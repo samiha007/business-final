@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+background: #f0f2f4;
+}
+.top-header-ul{
+list-style: none;
+margin: 0;
+display: flex;
+justify-content: space-between;
+}
+.top-header ul li{
+color: #424242;
+margin-left: 30px;
+}
+.top-header ul li i{
+margin-right: 5px;
+}
+.top-header ul li:last-child{
+    margin-left: 10px !important;
+    color: #1287bf;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #424242;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.btn-consultation{
+background: #de2b24;
+color: #fff !important;
+padding: 5px 0px;
+font-size: 16px !important;
+}
+.banner{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner h1{
+color: #fff;
+font-size: 50px;
+}
+.banner h4{
+color: #fff;
+font-weight: 400;
+}
+.banner button{
+    border-radius: 5px;
+    color: #fff;
+    background: #f8cd53;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 3 px; 
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+
+}
+.banner .row{
+    min-height: 80vh;
+    align-items: center;
+}
+.about{
+
+}
+.heading{
+
+}
+.heading h1{
+
+}
+.heading h5{
+    color: #4b4949;
+    font-weight: 400;
+}
+.heading span{
+    height: 5px;
+    width: 50px;
+    background: black;
+    display: block;
+    margin: auto;
+}
+.approach{
+    background-color: #f3f3f3;
+
+}
+.approach-content{
+    background: white;
+
+}
+.approach-content h4{
+    text-transform: capitalize;
+    padding-left: 25px;
+
+}
+.approach-content p{
+    margin: 0;
+    padding-left: 25px;
+
+}
+.step{
+    background-color: #de2b24;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    position: absolute;
+    top: 35%;
+    right: -45px;
+    transform: translate(-35%);
+}
+.step h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 5px;
+
+}
+.step h6{
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.pos{
+    position: relative;
+}
+.approach-content-left p{
+    padding: 0 50px;
+}
+.approach-content-left h4{
+    padding: 0 50px;
+    text-transform: capitalize;
+}
+.position{
+
+}
+.position .step{
+    background-color: #de2b24;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    position: absolute;
+    top: 35%;
+    right: -45px;
+    transform: translate(-35%);
+    top: 35%;
+    left: -2%;
+}
+.work-content{
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    width: 100%;
+
+}
+.work{
+    background-color: #de2b24;
+    color: white;
+    text-transform: capitalize;
+}
+.work-content i{
+
+}
+.work-content h3{
+    
+}
+.work-content p{
+    
+}
+.img{
+    overflow: hidden;
+    height: 180px;
+
+}
+.single-work{
+    background-color: #f35e59;
+    height: 180px;
+    position: relative;
+
+}
+
+.contact-form{
+    background-color: #1287bf;
+  }
+  .arrow{
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .arrow:hover, .cross:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #1287bf;
+  }
+  .arrow:focus, .cross:focus{
+    background-color: transparent;
+    border-color: #fff;
+    outline: none;
+    box-shadow: none;
+  }
+  .card-body{
+    padding: 35px;
+    margin-top: 50px;
+    position: relative;
+  }
+  .card-body::before{
+    content: '';
+    position: absolute;
+    width: 0;
+      height: 0;
+      border-left: 35px solid transparent;
+      border-right: 35px solid transparent;
+    border-bottom: 36px solid #fff;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .cross{
+    background: red;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  .form{
+    width: 70%;
+    margin: auto;
+  }
+  .contact-form h1{
+    color: #fff;  
+    font-family: 'Baloo 2', cursive;
+  }
+  .contact-form h5{
+    color: #fff;  
+    font-family: 'Baloo 2', cursive;
+    padding-bottom: 15px;
+  }
+  .contact-form p{
+    padding: 15px 0;
+  }
+  .contact-form button{
+    border: none;
+    color: #fff;
+    background: #de2b24;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-family: 'Baloo 2', cursive;
+    text-transform: uppercase;
+  }
+  .contact-form button:hover{
+    background: #1287bf;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  
+  .get-in-touch{
+    background-color: #2a2a2a;
+  }
+  .get-in-touch h1{
+    color: #fff;  
+    font-family: 'Baloo 2', cursive;
+  }
+  .get-in-touch h5{
+    color: #fff;  
+    font-weight: 300;
+    font-family: 'Baloo 2', cursive;
+  }
+  .get-in-touch ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    align-items: center;
+  }
+  .get-in-touch ul li{
+    /* margin-left: 30px; */
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border: 1px solid #fff;
+    padding: 5px 5px;
+    height: 40px;
+    width: 40px;
+  }
+  .get-in-touch ul li i{
+    /* margin-right: 5px; */
+    /* font-size: 20px; */
+  }
+  .get-in-touch ul li:hover{
+    /* background: #f8cd53; */
+    text-decoration: none;
+    border: 3px solid red;
+    height: 45px;
+    width: 45px;
+  }
+  .get-in-touch .form-group-email{
+    padding: 25px 0;
+  }
+  .get-in-touch .form-group-email input[type=email] {
+    background-color: #515151;
+    /* color: #cccccc; */
+    /* width: 50%;
+    transition: 0.4s all ease-in-out; */
+    /* border: 3px solid #fff; */
+  }
+  .get-in-touch .form-group-email input[type=email]:focus {
+    background-color: #fff;
+    /* width: 100%; */
+    /* border: 3px solid #fff; */
+  }
+  .get-in-touch button{
+    border: none;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border: 2px solid #515151;
+    border-radius: 5px;
+    padding: 10px 20px;
+    /* margin-top: 20px; */
+    font-family: 'Baloo 2', cursive;
+    text-transform: uppercase;
+  }
+  .get-in-touch button:hover{
+    background: #de2b24;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  
+  footer{
+    background: #515151;
+    padding: 15px;
+  }
+  footer p{
+    color: #fff;  
+    font-family: 'Baloo 2', cursive;
+  }
